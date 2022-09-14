@@ -1,0 +1,12 @@
+BEGIN
+	LIST destinations
+	INPUT userDestination
+	IF isDestinationAvailable(userDestination)
+		INPUT userSchedule
+		IF isScheduleAvailable(userSchedule)
+			booking()
+		ELSE
+			OUTPUT error("schedule is not available")
+	ELSE
+		OUTPUT error("destination is not available")
+END
