@@ -1,0 +1,7 @@
+BEGIN
+OUTPUT "getListSchedule()
+INPUT schedule 
+IF !isScheduleAvaileble(schedule) THEN
+    OUTPUT "jadwal tidak tersedia"
+ELSE 
+    booking
