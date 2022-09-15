@@ -1,0 +1,3 @@
+BEGIN
+LIST destination
+INPUT userDestination
