@@ -1,0 +1,9 @@
+BEGIN
+OUTPUT AsalKeberangkatan()
+INPUT PilihMaskapai
+IF !isKursiKosong(PilihMaskapai) THEN
+    OUTPUT "tidak ada kursi kosong"
+ELSE
+    Pilihjumlahkursi()
+Pesan()
+END
