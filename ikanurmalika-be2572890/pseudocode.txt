@@ -1,0 +1,11 @@
+BEGIN 
+INPUT Asal
+INPUT Tujuan
+IF Asal=Tujuan THEN
+    goto awal
+ELSE 
+    Tanggal()
+        IF tanggalAvailiable(tanggal) THEN
+            OUTPUT "Tidak tersedia"
+        ELSE 
+        END
