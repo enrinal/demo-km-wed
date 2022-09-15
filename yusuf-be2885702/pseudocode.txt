@@ -1,0 +1,11 @@
+BEGIN
+OUTPUT PilihBandaraPesawat()
+INPUT pilihtujuanpesawat
+IF !isTiketTersedia(pilihtujuanpesawat) THEN
+    OUTPUT "Tiket Peswat Tidak Tersedia"
+ELSE
+    pembayaran ()
+        If !isSaldoCukup(user) THEN
+           OUTPUT "saldo tidak cukup"
+        ELSE
+            END
