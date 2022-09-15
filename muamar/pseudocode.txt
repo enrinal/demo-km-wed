@@ -1,0 +1,13 @@
+BEGIN
+	LIST destinations
+	INPUT destination
+	IF isDestinationAvailable(destination)
+		booking
+	ELSE
+		OUTPUT error("destination is not available")
+	INPUT booking
+	IF isBookingAvailable(booking)
+		print Schedule
+	ELSE
+		OUTPUT error("booking is not available")
+END
